@@ -65,11 +65,11 @@ export const products = [
   },
   {
     id: 9,
-    name: 'Adaptador USB-C',
-    category: 'cables',
-    price: 35000,
-    description: 'Conversor USB-C a HDMI y USB 3.0',
-    icon: '🔌',
+    name: 'Teclado Mecánico RGB Redragon K552',
+    category: 'Teclados mecánicos',
+    price: 170000,
+    description: 'Teclado mecánico compacto con retroiluminación RGB, switches Outemu Blue, diseño resistente y duradero, ideal para gaming y escritura.',
+    image: '../img/RedragonK552.jpg'
   },
 ];
 

@@ -1,4 +1,5 @@
 import { WHATSAPP_NUMBER } from '../data/products';
+import redragonImg from '../img/RedragonK552.jpg';
 
 export default function ProductCard({ product }) {
   const handleWhatsApp = () => {
@@ -12,7 +13,7 @@ export default function ProductCard({ product }) {
   return (
     <div className="product-card">
       <div className="product-image">
-        {product.icon}
+        {product.id === 9 ? <img src={redragonImg} alt={product.name} /> : product.icon}
       </div>
       <div className="product-content">
         <span className="product-category">{product.category}</span>
