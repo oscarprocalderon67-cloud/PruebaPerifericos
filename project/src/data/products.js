@@ -1,0 +1,77 @@
+export const products = [
+  {
+    id: 1,
+    name: 'Teclado Mecánico RGB',
+    category: 'teclados',
+    price: 189000,
+    description: 'Teclado mecánico retroiluminado con switches de calidad',
+    icon: '⌨️',
+  },
+  {
+    id: 2,
+    name: 'Mouse Gamer Inalámbrico',
+    category: 'mouse',
+    price: 89000,
+    description: 'Mouse con precision de 3600 DPI, batería de larga duración',
+    icon: '🖱️',
+  },
+  {
+    id: 3,
+    name: 'Auriculares Bluetooth',
+    category: 'auriculares',
+    price: 259000,
+    description: 'Sonido envolvente con cancelación de ruido activa',
+    icon: '🎧',
+  },
+  {
+    id: 4,
+    name: 'Webcam Full HD',
+    category: 'webcams',
+    price: 149000,
+    description: 'Cámara 1080p para streaming y videollamadas profesionales',
+    icon: '📷',
+  },
+  {
+    id: 5,
+    name: 'Monitor 24" IPS',
+    category: 'monitores',
+    price: 589000,
+    description: 'Pantalla 60Hz con colores precisos, ideal para diseño',
+    icon: '🖥️',
+  },
+  {
+    id: 6,
+    name: 'Cable HDMI 2.1',
+    category: 'cables',
+    price: 45000,
+    description: 'Cable premium para 4K 60Hz, 2 metros de largo',
+    icon: '🔌',
+  },
+  {
+    id: 7,
+    name: 'Teclado Inalámbrico',
+    category: 'teclados',
+    price: 129000,
+    description: 'Teclado compacto y silencioso, batería 6 meses',
+    icon: '⌨️',
+  },
+  {
+    id: 8,
+    name: 'Mouse Pad Grande',
+    category: 'mouse',
+    price: 55000,
+    description: 'Superficie extendida, base antideslizante',
+    icon: '🖱️',
+  },
+  {
+    id: 9,
+    name: 'Adaptador USB-C',
+    category: 'cables',
+    price: 35000,
+    description: 'Conversor USB-C a HDMI y USB 3.0',
+    icon: '🔌',
+  },
+];
+
+
+export const WHATSAPP_NUMBER = '573232235190';
