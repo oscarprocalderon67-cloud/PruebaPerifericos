@@ -48,22 +48,23 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 0;
+  padding: 12px 0;
 }
 
 .logo {
   font-size: 24px;
   font-weight: 700;
-  color: var(--secondary);
+  color: var(--primary);
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
 }
 
 .logo-img {
-  height: 40px;
+  height: 50px;
   width: auto;
   object-fit: contain;
+  filter: brightness(1.1);
 }
 
 .logo-icon {
@@ -117,10 +118,11 @@ header {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  background: linear-gradient(135deg, var(--bg-dark-secondary) 0%, var(--bg-dark) 100%);
   color: var(--white);
-  padding: 48px 16px;
+  padding: 80px 16px;
   text-align: center;
+  border-bottom: 2px solid var(--primary);
 }
 
 .hero-content h1 {

@@ -14,9 +14,7 @@ export default function App() {
     { id: 'teclados', name: 'Teclados' },
     { id: 'mouse', name: 'Mouse' },
     { id: 'auriculares', name: 'Auriculares' },
-    { id: 'webcams', name: 'Webcams' },
     { id: 'monitores', name: 'Monitores' },
-    { id: 'cables', name: 'Cables y Adaptadores' },
   ];
 
   const filteredProducts = selectedCategory === 'todos'

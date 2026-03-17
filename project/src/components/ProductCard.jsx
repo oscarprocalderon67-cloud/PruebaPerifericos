@@ -6,16 +6,44 @@ import mousePadImg from '../img/mousePad.jpg';
 import ajazzWirelessImg from '../img/ajazzInalambrico.jpg';
 import mouseRazerImg from '../img/mouseRazer.jpg';
 import auricularImg from '../img/auricularLogited.jpg';
+import mouseAulaImg from '../img/mouseAULA.jpg';
+import mouseHyperImg from '../img/mouseHyper.webp';
+import mouseHyperXImg from '../img/mouseHYPERX.jpg';
+import tecladoGenericoImg from '../img/tecladoGENERICO.jpg';
+import tecladoGenerico2Img from '../img/tecladoGENERICO2.webp';
+import tecladoBlancoImg from '../img/tecladoBLANCO.jpg';
+import tecladoNegroImg from '../img/tecladoNEGRO.jpg';
+import monitor1Img from '../img/monitor1.webp';
+import monitor2Img from '../img/monitor2.jpg';
+import monitor3Img from '../img/monitor3.jpg';
+import auricular1Img from '../img/auricular1.webp';
+import auricular2Img from '../img/auricular2.jpg';
+import auricular3Img from '../img/auricular3.webp';
+import auricular4Img from '../img/auricular4.webp';
 
 export default function ProductCard({ product }) {
   const imageMap = {
     9: redragonImg,
     10: ajazzImg,
-    11: monitorImg,
-    12: mousePadImg,
     13: ajazzWirelessImg,
+    19: tecladoGenericoImg,
+    20: tecladoGenerico2Img,
+    21: tecladoBlancoImg,
+    22: tecladoNegroImg,
+    12: mousePadImg,
     14: mouseRazerImg,
+    16: mouseAulaImg,
+    17: mouseHyperImg,
+    18: mouseHyperXImg,
     15: auricularImg,
+    26: auricular1Img,
+    27: auricular2Img,
+    28: auricular3Img,
+    29: auricular4Img,
+    11: monitorImg,
+    23: monitor1Img,
+    24: monitor2Img,
+    25: monitor3Img,
   };
 
   const handleWhatsApp = () => {
