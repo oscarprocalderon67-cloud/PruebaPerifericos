@@ -48,6 +48,14 @@ export const products = [
     description: 'Ratón para juegos ergonómico personalizable: Interruptor de ratón para juegos más rápido - Iluminación Chroma RGB - Sensor óptico de 26K DPI - 11 botones programables - Rueda',
     image: '../img/mouseRazer.jpg',
   },
+  {
+    id: 15,
+    name: 'Logitech G432 Auriculares con Cable para Juegos',
+    category: 'auriculares',
+    price: 173813,
+    description: 'Sonido Envolvente 7.1, DTS Headphone:X 2.0, Micrófono Abatible para Silenciar, PC (Cuero Sintético) Negro/Azul',
+    image: '../img/auricularLogited.jpg',
+  },
 ];
 
 

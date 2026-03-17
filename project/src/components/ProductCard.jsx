@@ -5,6 +5,7 @@ import monitorImg from '../img/monitorAOC.jpg';
 import mousePadImg from '../img/mousePad.jpg';
 import ajazzWirelessImg from '../img/ajazzInalambrico.jpg';
 import mouseRazerImg from '../img/mouseRazer.jpg';
+import auricularImg from '../img/auricularLogited.jpg';
 
 export default function ProductCard({ product }) {
   const imageMap = {
@@ -14,6 +15,7 @@ export default function ProductCard({ product }) {
     12: mousePadImg,
     13: ajazzWirelessImg,
     14: mouseRazerImg,
+    15: auricularImg,
   };
 
   const handleWhatsApp = () => {
